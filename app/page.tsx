@@ -4,6 +4,7 @@ import AboutMe from "./components/aboutme/aboutme";
 import Contact from "./components/contact/contact";
 import Projects from "./components/projects/projects";
 import Resume from "./components/resume/resume";
+import Head from "next/head";
 
 export default function Page() {
     return (
