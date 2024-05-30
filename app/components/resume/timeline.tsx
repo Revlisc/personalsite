@@ -62,12 +62,12 @@ const educationExperience = [
 
 export default function Timeline() {
     return (
-        <div className="pb-5 mb-12">
-            <h4 className="text-3xl font-semibold mb-6 mt-5 pb-6 pt-6 mt-6 text-center mx-auto">Experience</h4>
+        <div className="pb-5 mb-12 font-roboto">
+            <h4 className="text-3xl font-semibold mb-6 mt-5 pb-6 pt-6 mt-6 text-center mx-auto font-lato">Experience</h4>
             {workExperience.map((w, i) => 
                 <Entry key={i} position={w.position} place={w.place} dates={w.dates} description={w.description} education={false}/>
             )} 
-            <h4 className="text-3xl font-semibold mb-6 mt-5 pb-6 pt-6 mt-6 text-center mx-auto">Education</h4>
+            <h4 className="text-3xl font-semibold mb-6 mt-5 pb-6 pt-6 mt-6 text-center mx-auto font-lato">Education</h4>
             {educationExperience.map((w, i) => 
                 <Education key={i} position={w.position} place={w.place} dates={w.dates} description={w.description} education={true}/>
             )} 

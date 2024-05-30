@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function About(){
   return (
-    <div className="h-screen flex flex-col justify-center items-center font-semibold bg-gradient-to-b from-blue-500 to-purple-700" id='#home'>
+    <div className="h-screen flex flex-col justify-center items-center font-semibold bg-gradient-to-b from-blue-500 to-purple-700 font-lato" id='#home'>
       <div className="h-1/3 text-white text-center">
         <p className="text-6xl md:text-7xl mb-4">Hey, I&apos;m Dale!</p>
         <h6 className="text-xl md:text-2xl mb-4">I&apos;m a full-stack software engineer with an interest in big data.</h6>
