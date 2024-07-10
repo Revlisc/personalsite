@@ -20,7 +20,7 @@ export default function Years() {
                 {years.map((y, index) => (
                     <div className="bg-white shadow-lg rounded-lg p-4 mb-4" key={index}>
                         <h4 className="text-xl text-space mb-2 inline">{y.experience} {y.experience === 1 ? 'Year' : 'Years'}</h4>
-                        <div className="flex flex-wrap mt-4">
+                        <div className="flex flex-wrap mt-4 justify-center">
                             {y.skill.map((skill, skillIndex) => (
                                 <span key={skillIndex} className="bg-gray-100 text-space px-3 py-1 rounded-full mr-2 mb-2">
                                     {skill}

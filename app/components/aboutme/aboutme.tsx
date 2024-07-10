@@ -102,11 +102,11 @@ interface AccordionItemProps {
     return (
       <div id='#aboutme' className="bg-gray-100 mx-auto py-12 text-space shadow-md">
         <div className=" py-12 font-roboto">
-          <h2 className="text-4xl mx-auto text-center mb-8 font-semibold font-lato text-space">Let Me Introduce Myself</h2>
-          <p className=" w-5/6 sm:w-3/5 mx-auto mb-8 mt-8">
+          <h2 className="sm:text-4xl md:w-full w-4/5 text-2xl mx-auto text-center mb-8 font-semibold font-lato text-space">Let Me Introduce Myself</h2>
+          <p className=" w-4/6 sm:w-3/5 mx-auto mb-8 mt-8">
             I am a people-focused and results-driven engineer with over two years of experience in building scalable and maintainable software solutions in Agile teams. I love to tackle challenging problems together - the collaborative aspect of programming and problem-solving is among my favorites on the job. I am always up to get a ping or a call to dive into a new problem and figure it out together. I strive to bring a positive attitude and treat all experiences as ones I can learn and grow from. As part of my commitment to growth, on the side, I am also pursuing my Masters in Computer Science where I have been focusing on Big Data and Machine learning.
           </p>
-          <div className="sm:w-3/5 w-full mx-auto mb-2 pb-12">
+          <div className="sm:w-3/5 w-4/5 mx-auto mb-2 pb-12">
             <Accordion items={accordionItems}/>
           </div>
           <TraitsBar />

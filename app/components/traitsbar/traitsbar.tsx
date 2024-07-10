@@ -26,9 +26,9 @@ const traits = [
 export default function TraitsBar() {
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-4  mx-auto w-5/6 sm:w-4/5 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4  mx-auto w-5/6 sm:w-4/5 mb-12">
     {traits.map((trait, i) =>
-      <div key={i} className="block text-center">
+      <div key={i} className="block text-center mb-6 md:mb-0">
         <div className="rounded-full bg-indigo h-20 w-20 flex items-center justify-center mx-auto mb-4">
           <FontAwesomeIcon icon={trait.icon} className='text-white w-12 h-12' />
         </div>
