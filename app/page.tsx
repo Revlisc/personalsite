@@ -9,13 +9,12 @@ import Head from "next/head";
 export default function Page() {
     return (
         <main className="">
-            <div className="">
+            <div className="text-space">
                 <Navigation/>
                 <Landing/>
                 <AboutMe/>
                 <Resume/>
                 <Projects/>
-                <Contact/> 
             </div>
             
         </main>

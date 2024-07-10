@@ -3,17 +3,25 @@ import Education from './education'
 
 const workExperience = [
     {
+        'place': 'Selfless Solutions',
+        'dates': 'May 2024 - Present',
+        'position': 'Software Engineer (Volunteer)',
+        'description': [
+            "Conducted thorough data cleaning and analysis on three years of student data to demonstrate key trends in our English literacy application utilizing Python.",
+            "Managed and optimized data storage in AWS S3 and developed QuickSight dashboards to provide clear, actionable insights through the creation of visualizations."
+        ]
+    },
+    {
         'place': 'GenesisCare',
         'dates': 'November 2022 - February 2024',
         'position': 'Software Engineer',
         'description': [
-            "Built scalable and user-friendly full stack software solutions adopted by hundreds of medical professionals in over 300 clinics across the nation by leveraging C#, .NET, React, Bootstrap, and SQL.",
-            "Designed and developed an enhanced patient treatment planning application with Agile team by migrating functionality to modernized .NET version reducing user training and treatment plan creation time by 30%.",
-            "Built patient management dashboard with React, C# and Bootstrap to serve as a centralized platform for all providers, achieving higher satisfaction compared to existing systems among 100% of users.",
-            "Refactored legacy insurance application to comply with 2024 Medicare standards by collaborating with end users and leveraging C# resulting in achieving compliance in over 300 clinics within one week.",
-            "Collaborated with an Agile team to update and modernize existing treatment applications in .NET to improve workflows and user experience for centers nationwide leading to 40% fewer service tickets.",
-            "Optimized SQL scripts for patient systems for data extraction, reporting, and storage reducing processing time by 40%.",
-            "Improved codebase security and efficiency through migration of ETL pipelines to Microsoft Azure and refactoring data processing code for maintainability and software engineering principles."
+            "Spearheaded the redesign of a treatment planning system for radiotherapy clinics with .NET, directly collaborating with users to resolve existing pain points resulting in improved user experience and maintainability",
+            "Engineered a centralized full-stack patient management platform with React, C#, and Bootstrap; guided two junior developers, achieving 100% user approval among key stakeholders and improving system efficiency by 40%.",
+            "Established automated test suite with xUnit adopted among all CI/CD pipelines using Octopus Deploy and TeamCity increasing project delivery speed by 25% and reducing testing time by 50%",
+            "Refactored a complex insurance application to comply with 2024 Medicare and HIPAA standards by collaborating with end users and leveraging C# and SQL, resulting in compliance in over 300 clinics within two weeks.",
+            "Collaborated with an Agile team of five to update and modernize existing large complex radiotherapy support systems in .NET to improve workflows for centers nationwide leading to 40% fewer service tickets.",
+            "Optimized SQL scripts in Microsoft SQL Server for large complex billing and treatment automation systems for data extraction, reporting, and storage reducing processing time by 30%.",
         ],
     },
     {
@@ -24,7 +32,7 @@ const workExperience = [
             "Demonstrated ability to successfully develop software solutions for diverse clientele, simultaneously balancing up to four concurrent projects in multiple frameworks and languages within Agile development cycles. ",
             "Solved internal onboarding and inventory management system issues in first month by designing and implementing an application reducing onboarding time by 50% and used for 100% of new hires since release.",
             "Adapted an energy metric tracking fullstack web application to implement more than ten new features and fix downed systems using C# and ASP.NET/MVC while tracking tickets with Jira.",
-            "Coordinated needs of two stakeholder groups to design and build the front-end of inventory management system utilizing React and integrating a REST API built in .NET and C#."
+            "Coordinated needs of two stakeholder groups to design and build the front-end of medical organization system in team of two utilizing React and integrating a REST API built in .NET and C#."
         ],
     },
     {
@@ -49,7 +57,7 @@ const educationExperience = [
         ],
     },
     {
-        'place': 'Univeristy of Washington',
+        'place': 'University of Washington',
         'dates': '2017 - 2020',
         'position': 'Bachelor of Science, Biology',
         'description': [
@@ -62,7 +70,7 @@ const educationExperience = [
 
 export default function Timeline() {
     return (
-        <div className="pb-5 mb-12 font-roboto">
+        <div className="pb-12 font-roboto text-space">
             <h4 className="text-3xl font-semibold mb-6 mt-5 pb-6 pt-6 mt-6 text-center mx-auto font-lato">Experience</h4>
             {workExperience.map((w, i) => 
                 <Entry key={i} position={w.position} place={w.place} dates={w.dates} description={w.description} education={false}/>

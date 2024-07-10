@@ -35,7 +35,7 @@ const projects = [
 ]
 export default function Projects() {
     return (
-        <div id='#projects' className="min-h-screen pb-12 sm:pb-0 mb-6 font-roboto">
+        <div id='#projects' className=" py-12 sm:pb-0 font-roboto bg-gray-100">
             <h2 className="text-3xl font-semibold text-center mx-auto mb-24 font-lato">Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-4 w-full sm:w-3/4 mx-auto gap-5 text-center mb-12">
                 {projects.map((p, i) => 

@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
     return (
-        <div id="#contact" className="bg-gray-100 py-16 mt-6 font-roboto">
+        <div id="#contact" className="bg-brunswick py-16 mt-6 font-roboto text-columbia">
         <div className="mx-auto w-5/6 sm:w-3/5">
           <h1 className="text-4xl mx-auto text-center mb-8 font-semibold font-lato">Ways to Get In Touch</h1>
           <p className="text-lg text-center mb-8 mx-auto text-center">Reach out at any of the following so we can chat</p>

@@ -21,8 +21,9 @@ const config: Config = {
         cadet: '#8DA7BE',
         columbia: '#CDE6F5',
         brunswick: '#2B503C',
-        grey: '#87919E',
-        indigo: '#27187E'
+        space: '#192A51',
+        indigo: '#27187E',
+        cham: '#A38560'
       }
     },
   },
