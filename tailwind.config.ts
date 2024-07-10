@@ -18,11 +18,11 @@ const config: Config = {
         roboto: ['var(--font-roboto)'],
       },
       colors: {
-        lavender: 'rgb(215, 218, 229)',
-        columbia: 'rgb(185, 205, 218)',
-        tiffany: 'rgb(166, 216, 212)',
-        cambridge: 'rgb(142, 175, 157)',
-        amarath: 'rgb(152, 38, 73)'
+        cadet: '#8DA7BE',
+        columbia: '#CDE6F5',
+        brunswick: '#2B503C',
+        grey: '#87919E',
+        indigo: '#27187E'
       }
     },
   },
