@@ -16,6 +16,13 @@ const config: Config = {
       fontFamily: {
         lato: ['var(--font-lato)'],
         roboto: ['var(--font-roboto)'],
+      },
+      colors: {
+        lavender: 'rgb(215, 218, 229)',
+        columbia: 'rgb(185, 205, 218)',
+        tiffany: 'rgb(166, 216, 212)',
+        cambridge: 'rgb(142, 175, 157)',
+        amarath: 'rgb(152, 38, 73)'
       }
     },
   },
