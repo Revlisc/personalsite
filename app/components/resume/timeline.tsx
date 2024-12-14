@@ -3,8 +3,24 @@ import Education from './education'
 
 const workExperience = [
     {
+        'place': 'Actalent',
+        'dates': 'November 2024 - Present',
+        'position': 'Software Development Engineer',
+        'description': [
+            "Utilized .NET 8 and Powershell scripts to develop a service to allow for easier interfacing between Waters Corporation lab equipment, reducing processing time by 30%.",
+        ]
+    },
+    {
+        'place': 'Happy Whale',
+        'dates': 'November 2024 - Present',
+        'position': 'Machine Learning Consultant (Volunteer)',
+        'description': [
+            "Leveraged Python and LLMs to create a custom Large Language Model to write detailed, customized descriptions for over ten thousand whales in the Happy Whale Sightings Database.",
+        ]
+    },
+    {
         'place': 'Selfless Solutions',
-        'dates': 'May 2024 - Present',
+        'dates': 'May 2024 - September 2024',
         'position': 'Software Engineer (Volunteer)',
         'description': [
             "Conducted thorough data cleaning and analysis on three years of student data to demonstrate key trends in our English literacy application utilizing Python.",
@@ -53,7 +69,7 @@ const educationExperience = [
         'dates': '2023 - 2024',
         'position': 'Master of Computer Science',
         'description': [
-            "GPA: 3.9/4.0"
+            "GPA: 3.93/4.0"
         ],
     },
     {
