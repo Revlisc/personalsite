@@ -1,3 +1,4 @@
+"use client"
 import Timeline from "./timeline";
 
 export default function Resume() {

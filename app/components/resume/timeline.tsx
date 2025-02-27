@@ -1,3 +1,4 @@
+"use client"
 import Entry from "./entry"
 import Education from './education'
 
@@ -7,7 +8,8 @@ const workExperience = [
         'dates': 'November 2024 - Present',
         'position': 'Software Development Engineer',
         'description': [
-            "Utilized .NET 8 and Powershell scripts to develop a service to allow for easier interfacing between Waters Corporation lab equipment, reducing processing time by 30%.",
+            "Developed and deployed a .NET service to automate spectrometry scheduling, preparation, and processing, eliminating manual equipment operation by chemists and streamlining workflows.",
+            "Integrated the .NET service into the existing system, coordinating hardware and software components with Python, TypeScript, and C++ to enhance automation capabilities—boosting analysis efficiency by 70%.",
         ]
     },
     {

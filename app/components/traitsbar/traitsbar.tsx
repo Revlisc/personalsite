@@ -1,3 +1,4 @@
+"use client"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faComments, faDatabase, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 
