@@ -84,9 +84,19 @@ interface AccordionItemProps {
       {
         title: 'Work Background',
         content: (
-          <p className="text-base text-gray-700">
-            During my time at GenesisCare, I spearheaded the development of new full-stack software solutions on our patient treatment planning and billing system using JavaScript, .NET, C#, SQL, Bootstrap, and React. I led the integration of Test-Driven Development to reduce development time and increase code quality leading to reduced time to production by 25%. I optimized update and data retrieval queries and scripts in the database to reduce processing time by up to 50%. Finally, I modernized and refactored the existing code base to improve user experience and increase maintainability leading to a reduction of incoming user tickets by 40%. At REV Tech, I gained experience working with a diverse clientele while balancing multiple concurrent projects in multiple frameworks in Agile development cycles. Throughout the projects, I made strong use of .NET, ASP.NET, React, and C# to deliver high-quality results for clients on a tight schedule.
+          <div className="text-base text-gray-700">
+            <p>
+              I'm currently a Software Engineer at Actalent, working with C# and Python on backend systems to increase the capabilities, user experience, and efficiency of laboratory analysis software.
+            </p>
+            <br/>
+            <p>
+            During my time at GenesisCare, I spearheaded the development of new full-stack software solutions on our patient treatment planning and billing system using JavaScript, .NET, C#, SQL, Bootstrap, and React. I led the integration of Test-Driven Development to reduce development time and increase code quality leading to reduced time to production by 25%. I optimized update and data retrieval queries and scripts in the database to reduce processing time by up to 50%. Finally, I modernized and refactored the existing code base to improve user experience and increase maintainability leading to a reduction of incoming user tickets by 40%.
+            </p>
+            <br/>
+          <p>
+            At REV Tech, I gained experience working with a diverse clientele while balancing multiple concurrent projects in multiple frameworks in Agile development cycles. Throughout the projects, I made strong use of .NET, ASP.NET, React, and C# to deliver high-quality results for clients on a tight schedule.
           </p>
+          </div>
         ),
       },
       {
@@ -104,7 +114,7 @@ interface AccordionItemProps {
         <div className=" py-12 font-roboto">
           <h2 className="sm:text-4xl md:w-full w-4/5 text-2xl mx-auto text-center mb-8 font-semibold font-lato text-space">Let Me Introduce Myself</h2>
           <p className=" w-4/6 sm:w-3/5 mx-auto mb-8 mt-8">
-            I am a people-focused and results-driven engineer with over two years of experience in building scalable and maintainable software solutions in Agile teams. I love to tackle challenging problems together - the collaborative aspect of programming and problem-solving is among my favorites on the job. I am always up to get a ping or a call to dive into a new problem and figure it out together. I strive to bring a positive attitude and treat all experiences as ones I can learn and grow from. As part of my commitment to growth, on the side, I am also pursuing my Masters in Computer Science where I have been focusing on Big Data and Machine learning.
+            I am a people-focused and results-driven engineer with three years of experience in building scalable and maintainable software solutions in Agile teams. I love to tackle challenging problems together - the collaborative aspect of programming and problem-solving is among my favorites on the job. I am always up to get a ping or a call to dive into a new problem and figure it out together. I strive to bring a positive attitude and treat all experiences as ones I can learn and grow from. As part of my commitment to growth, I completed my Master degree in Computer Sciece in 2024 with a 3.93 GPA while working full time. In keeping with my interest in data and utilizing it to help others, I volunteer for educational and conservation-based organizations to help them process, understand, and utilize their data.
           </p>
           <div className="sm:w-3/5 w-4/5 mx-auto mb-2 pb-12">
             <Accordion items={accordionItems}/>
