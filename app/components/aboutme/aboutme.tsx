@@ -86,7 +86,7 @@ interface AccordionItemProps {
         content: (
           <div className="text-base text-gray-700">
             <p>
-              I'm currently a Software Engineer at Actalent, working with C# and Python on backend systems to increase the capabilities, user experience, and efficiency of laboratory analysis software.
+              I am currently a Software Engineer at Actalent, working with C# and Python on backend systems to increase the capabilities, user experience, and efficiency of laboratory analysis software.
             </p>
             <br/>
             <p>
